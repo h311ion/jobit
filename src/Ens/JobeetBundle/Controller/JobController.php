@@ -24,7 +24,8 @@ class JobController extends Controller
 
         $jobs = $em->getRepository('EnsJobeetBundle:Job')->findAll();
 
-        return $this->render('job/index.html.twig', array(
+        return $this->render('EnsJobeetBundle:Job:index.html.twig', array(
+//        return $this->render('job/index.html.twig', array(
             'jobs' => $jobs,
         ));
     }

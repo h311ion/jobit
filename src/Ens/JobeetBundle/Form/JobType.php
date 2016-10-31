@@ -27,9 +27,9 @@ class JobType extends AbstractType
             ->add('is_public')
             ->add('is_activated')
             ->add('email')
-            ->add('expires_at', 'datetime')
-            ->add('created_at', 'datetime')
-            ->add('updated_at', 'datetime')
+            ->add('expires_at')
+            ->add('created_at')
+            ->add('updated_at')
             ->add('category')
         ;
     }

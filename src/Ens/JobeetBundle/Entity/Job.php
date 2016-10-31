@@ -2,6 +2,9 @@
 
 namespace Ens\JobeetBundle\Entity;
 
+use Doctrine\ORM\Mapping AS ORM;
+
+
 /**
  * Job
  */
